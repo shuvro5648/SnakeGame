@@ -130,7 +130,7 @@ public class GamePanel extends JPanel implements ActionListener {
             bodyParts++;
             foodEaten++;
             if(foodEaten%5==0){
-                delay-=0;
+                delay-=10;
                 timer.setDelay(delay);
             }
             newFood();
